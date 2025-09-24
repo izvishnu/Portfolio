@@ -10,7 +10,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Button } from "./ui/button";
-import { SendEmail } from "./SendEmail";
+// import { SendEmail } from "./SendEmail";
 
 const ContactForm = () => {
   return (
@@ -18,7 +18,7 @@ const ContactForm = () => {
       <form
         action={async (FormData) => {
           "use server";
-          await SendEmail(FormData);
+          // await SendEmail(FormData);
         }}
       >
         <CardHeader>
